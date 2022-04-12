@@ -1,23 +1,102 @@
 body {
-    background: url("../assets/LoginBackground.png");
-    align-items: center;
+    font-family: 'Amiko', sans-serif;
     display: flex;
+    overflow: hidden;
+    min-height: 100vh;
     justify-content: center;
+    align-items: center;
+    background: url("../assets/LoginBackground.png");
 }
 
 .login {
     display: flex;
-    max-width: fit-content;
-    background: rgba(255, 255, 255, 0.85);
-    height: 500px;
-    flex-direction: column;
     align-items: center;
-    padding: 8px 16px;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 48px 112px;
     border-radius: 8px;
 }
 
+.login-title {
+    display: flex;
+    justify-content: center;
+}
+
 .login-title--name {
-    font-family: 'Amiko', sans-serif;
+    padding-left: 16px;
     font-size: 50px;
     color: #4B209C;
+}
+
+.login-title--img {
+    width: 64px;
+    height: 64px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 64px;
+}
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    margin: 8px 0;
+    width: 300px;
+    padding: 16px;
+    border: 2px solid #B598EA;
+    border-radius: 8px;
+    background: transparent;
+    transition: .3s ease-in-out;
+}
+
+.login-input::placeholder {
+    color: #6B31D5;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.login-input:focus {
+    outline: none !important;
+    border: 2px solid #4B209C;
+    transition: .3s ease-in-out;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 144px;
+}
+
+.login-button {
+    margin: 4px 0;
+    width: 240px;
+    border: 2px solid #6B31D5;
+    border-radius: 12px;
+    padding: 12px 0;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.login-button--primary {
+    background: #6B31D5;
+    color: #FFFFFF;
+}
+
+.login-button--secondary {
+    background: transparent;
+    color: #6B31D5;
+}
+
+.login-button--secondary:hover {
+    background: #6B31D5;
+    color: #FFFFFF;
+    transition: .3s ease-in-out;
 }
