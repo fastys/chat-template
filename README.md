@@ -6,7 +6,7 @@
 
 ### Created by [Fastys](https://github.com/fastys) and [Volodymyr68](https://github.com/volodymyr68)
 
-### [IGMA DESIGN](https://www.figma.com/file/ReOtQvvSMrPRCrDbUtbj2g/ChatIt) (by [Qidsen](https://github.com/qidsen))
+### [FIGMA DESIGN](https://www.figma.com/file/ReOtQvvSMrPRCrDbUtbj2g/ChatIt) (by [Qidsen](https://github.com/qidsen))
 
 ### STACK OF TECHNOLOGIES:
 * HTML
