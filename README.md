@@ -1,6 +1,6 @@
 # chat-template
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/49961010/163021143-83bf4cdd-e37d-4cde-a242-c14e6d42d8fc.png)
 
 ## NOT FOR COMMERCIAL PURPOSES!
 
