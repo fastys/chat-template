@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>LoginPage</title>
-</head>
-<body>
-
-    <div class="login-container">
-        <form>
-            <h2 class="text-center">ChatIT</h2>
-            <div class="form-control item" type="text" name="username" maxlength="20"
-                  minlength="5" pattern="a-z" id="username" aria-placeholder="PhoneNumber" 
-        </form>
-
-
-
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="login">
+            <div class="login-title">
+                <h1>ChatIT</h1>
+            </div>
+            <form class="login-form">
+                <div class="login-inputs">
+                    <input class="login-input" type="text" placeholder="Phone number" name="uname" required>
+                    <input class="login-input" type="password" placeholder="Password" name="psw" required>
+                </div>
+                <div class="login-buttons">
+                    <button class="login-button">Log In</button>
+                    <button class="login-button">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </body>
 </html>
