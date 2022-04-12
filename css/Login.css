@@ -52,12 +52,16 @@ body {
     border: 2px solid #B598EA;
     border-radius: 8px;
     background: transparent;
+    color: #6B31D5;
+    font-size: 16px;
+    font-weight: bold;
     transition: .3s ease-in-out;
 }
 
 .login-input::placeholder {
     color: #6B31D5;
     font-size: 18px;
+    font-weight: normal;
     vertical-align: middle;
 }
 
@@ -95,8 +99,14 @@ body {
     color: #6B31D5;
 }
 
+.login-button--primary:hover {
+    filter: brightness(0.9);
+    transition: .3s ease-in-out;
+}
+
 .login-button--secondary:hover {
     background: #6B31D5;
+    filter: brightness(0.9);
     color: #FFFFFF;
     transition: .3s ease-in-out;
 }
