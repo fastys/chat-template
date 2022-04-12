@@ -13,4 +13,4 @@
 
 * CSS
 
-(**_later will be implemented JavaScript and will be wrote some logic_**)
+(**_later will be implemented JavaScript and will be written some logic_**)
