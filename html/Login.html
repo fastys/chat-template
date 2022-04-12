@@ -5,18 +5,20 @@
         <title>Login</title>
     </head>
     <body>
-        <div class="login-container">
-            <h1>ChatIT</h1>
-            <div>
-                 <input type="text" placeholder="Phone number" name="uname" required>
-                 <input type="password" placeholder="Password" name="psw" required>
+        <div class="login">
+            <div class="login-title">
+                <h1>ChatIT</h1>
             </div>
-            <div>
-                <button type="submit">Log In</button>
-            </div>
-            <div>
-                <button type="submit">Sign Up</button>
-            </div>
+            <form class="login-form">
+                <div class="login-inputs">
+                    <input class="login-input" type="text" placeholder="Phone number" name="uname" required>
+                    <input class="login-input" type="password" placeholder="Password" name="psw" required>
+                </div>
+                <div class="login-buttons">
+                    <button class="login-button">Log In</button>
+                    <button class="login-button">Sign Up</button>
+                </div>
+            </form>
         </div>
     </body>
 </html>
