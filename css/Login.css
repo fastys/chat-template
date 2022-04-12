@@ -79,6 +79,8 @@ body {
 }
 
 .login-button {
+    text-align: center;
+    text-decoration: none;
     margin: 4px 0;
     width: 240px;
     border: 2px solid #6B31D5;
