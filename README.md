@@ -1,6 +1,6 @@
 # chat-template
 
-![image](https://user-images.githubusercontent.com/49961010/163021143-83bf4cdd-e37d-4cde-a242-c14e6d42d8fc.png)
+![image](https://user-images.githubusercontent.com/49961010/163057203-931ad1b9-d2ca-441d-a1c6-3877c960b41d.png)
 
 ## NOT FOR COMMERCIAL PURPOSES!
 
