@@ -113,17 +113,18 @@ body {
     transition: .3s ease-in-out;
 }
 
-.select-photos {
+.login-select-photos {
     display: grid;
-    gap: 16px;
+    gap: 16px 80px;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     background: #C4C4C4;
-    border-radius: 8px;
+    padding: 32px;
+    margin-top: 16px;
 }
 
-.select-photo {
-    width: 40px;
+.login-select-photo {
+    width: 64px;
     font-size: 40px;
     border-radius: 75%;
 }
