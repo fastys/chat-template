@@ -1,0 +1,14 @@
+.select-photos {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background: #C4C4C4;
+    border-radius: 8px;
+}
+
+.select-photo {
+    width: 40px;
+    font-size: 40px;
+    border-radius: 75%;
+}
