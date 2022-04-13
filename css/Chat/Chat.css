@@ -1,0 +1,31 @@
+body{
+    font-family: 'Amiko', sans-serif;
+    display: flex;
+    overflow: hidden;
+    min-height: 100vh;
+    background: url("../../assets/Chat/ChatBackground.png");
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 100vw;
+}
+
+
+.chat{
+    display: flex;
+    flex-direction: row;
+}
+.chat-profile{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(32px);
+    width: 512px;
+}
+.chat-profile__userinfo{
+    display: flex;
+    border-bottom: 1px solid #82ACC4;
+}
+.chat-profile__contacts{
+    display: flex;
+    border-bottom: 1px solid #82ACC4;
+}
