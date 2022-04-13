@@ -69,4 +69,54 @@ body {
 .chat-profile__contacts {
     display: flex;
     flex-direction: column;
+    height:480px;
+    overflow: auto;
+}
+
+.chat-profile__contact {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #82ACC4;
+}
+
+.chat-profile__contact-data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.chat-profile__contact--avatar {
+    padding: 5px 5px;
+    border-radius: 75%;
+    width: 64px;
+}
+
+.chat-profile__contact--name {
+    text-decoration: none;
+    color: #232F36;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.chat-profile__contact--message {
+    width: 324px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #547282;
+    font-size: 14px;
+}
+.chat-profile__contacts::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat-profile__contacts::-webkit-scrollbar-track {
+    background: #FFFFFF;
+}
+
+.chat-profile__contacts::-webkit-scrollbar-thumb {
+    background-color: #B598EA;
+    border-radius: 4px;
+    border: 3px solid #FFFFFF;
 }
