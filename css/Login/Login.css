@@ -128,3 +128,7 @@ body {
     font-size: 40px;
     border-radius: 75%;
 }
+
+.w-auto {
+    width: auto;
+}
