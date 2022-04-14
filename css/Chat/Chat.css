@@ -76,19 +76,21 @@ body {
 .chat-profile__contact {
     display: flex;
     align-items: center;
+    text-decoration: none;
     border-bottom: 1px solid #82ACC4;
+    padding: 4px 8px;
 }
 
 .chat-profile__contact-data {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     margin-left: 12px;
 }
 
 .chat-profile__contact--avatar {
-    padding: 5px 5px;
-    border-radius: 75%;
     width: 64px;
+    border-radius: 75%;
 }
 
 .chat-profile__contact--name {
@@ -100,7 +102,7 @@ body {
 }
 
 .chat-profile__contact--message {
-    width: 370px;
+    width: 350px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -125,8 +127,8 @@ body {
 .chat-profile__settings {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
-    margin-top: 48px;
+    padding: 0 20px;
+    margin-top: 64px;
 }
 
 .chat-profile__bottom-button {
@@ -137,6 +139,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .chat-profile__bottom-button-text {
