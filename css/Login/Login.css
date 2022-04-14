@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url("../../assets/LoginBackground.png");
+    background: url("../../assets/Login/LoginBackground.png");
 }
 
 .login {
@@ -111,4 +111,24 @@ body {
     filter: brightness(0.9);
     color: #FFFFFF;
     transition: .3s ease-in-out;
+}
+
+.login-select-photos {
+    display: grid;
+    gap: 16px 80px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background: #C4C4C4;
+    padding: 32px;
+    margin-top: 16px;
+}
+
+.login-select-photo {
+    width: 64px;
+    font-size: 40px;
+    border-radius: 75%;
+}
+
+.w-auto {
+    width: auto;
 }
