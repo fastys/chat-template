@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f6d644d-4bbe-43d3-989b-d38f350e3ce5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Chat/Chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Chat/Chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Chat/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +36,17 @@
     <configuration name="Login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chat-template/html/Login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="SignUpSecondForm.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chat-template/html/Login/SignUpSecondForm.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chat-template/html/Chat/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.Login.html (1)" />
+        <item itemvalue="JavaScript Debug.SignUpSecondForm.html" />
         <item itemvalue="JavaScript Debug.Login.html" />
       </list>
     </recent_temporary>
